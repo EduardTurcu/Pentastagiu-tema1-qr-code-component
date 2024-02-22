@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5; 
+  }
+
+  .card {
+    width: 290px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Calibri;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 20px; /* Marginile rotunjite ale cardului */
+  }
+
+  .card img {
+    width: 100%; 
+    margin-top: 0px;
+    border-radius: 10px; 
+
+  }
+
+  .card h2 {
+    margin: 15px 0 10px;
+    font-size: 22px;
+    color: #333;
+  }
+
+  .card p {
+    color: #9e9c9c;
+    font-size: 15px;
+    margin: 0px 5px 0px;
+  }
